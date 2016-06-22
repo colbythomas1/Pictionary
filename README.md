@@ -29,6 +29,7 @@ In this lab we will be tackling a new concept within Scratch, using the pen tool
   ![](pen-init.png)
   
   Now, we can start actually writing. Insert an if-else statement into the forever loop to sense for when the mouse is down. If its true have the pen down and else have pen up. 
+  **Note**: Since you are inside the game, when you click you will select the cursor instead of draw. To test your pen logic you must be outside of the game. You can do this by selecting See Project Page in the top right hand corner.
   
   We also don't want the pen to write beyond the borders, insert four if statements to sense each of the four borders. Using greater than and less than operators, sense if x and y positions are past the positions they should be at and choose set x or y to that position as well as pen up. This will stop it from writing on the edges.
   
